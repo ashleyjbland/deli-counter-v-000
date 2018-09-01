@@ -5,7 +5,7 @@ def line(katz_deli)
     order_line = katz_deli.each_with_index do |name, index|
       print " #{index + 1}. #{name} "
     end
-    order_line.insert(0, "The line is currently: ")
+    puts "The line is currently: " << order_line
 
 
   else
