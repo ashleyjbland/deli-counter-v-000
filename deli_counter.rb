@@ -2,8 +2,9 @@ require 'pry'
 katz_deli = ["Logan", "Avi", "Spencer"]
 def line(katz_deli)
   if katz_deli.count >= 1
+    katz_deli.unshift("The line is currently: ")
     katz_deli.each_with_index do |name, index|
-      print "#{index}. #{name} "
+      print "#{name} #{index}. "
 
     end
 
@@ -12,4 +13,3 @@ def line(katz_deli)
   end
 end
 binding.pry
-katz_deli.unshift("The line is currently: ")
