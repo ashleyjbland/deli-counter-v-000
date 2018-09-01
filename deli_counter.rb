@@ -1,5 +1,5 @@
 require 'pry'
-katz_deli = ["Logan", "Avi", "Spencer"]
+
 def line(katz_deli)
   if katz_deli.count >= 1
     print "The line is currently: "
@@ -13,4 +13,4 @@ def line(katz_deli)
     puts "The line is currently empty."
   end
 end
-binding.pry
+#binding.pry
